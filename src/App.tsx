@@ -16,7 +16,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Jiboong E-commerce System 1.0.0 login V2.0.0.1</h1>
+      <h1>Jiboong E-commerce System 1.0.0 login V2.0.0.1 V2.0.0.2(fixed bug)</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -31,7 +31,7 @@ function App() {
         
       </p>
       <p>
-        Create a “Sign Up” UI form
+        Create a “Sign Up” UI form Edit BuG
       </p>
     </>
   )
