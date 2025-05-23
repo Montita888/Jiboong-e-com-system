@@ -56,7 +56,7 @@ function App() {
         Test CD V8.0.1
       </p>
       <p>
-        test-deploy
+        test-deploy 2
       </p>
     </>
   )
