@@ -52,6 +52,9 @@ function App() {
       <p>
         Test CD V8.0.0
       </p>
+      <p>
+        Test CD V8.0.1
+      </p>
     </>
   )
 }
