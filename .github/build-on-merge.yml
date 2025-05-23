@@ -1,0 +1,22 @@
+name: Test and Build on PR
+
+on:
+  pull_request:
+    branches:
+      -main
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubantu-latest
+    steps:
+      - uses: actions/checkout@4
+      - uses: actions/setup-node@4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+
