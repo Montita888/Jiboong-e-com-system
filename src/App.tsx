@@ -34,6 +34,9 @@ function App() {
       <p>
         Build a product grid UI V3.0.0
       </p>
+      <p>
+        Test CI V7.0.0
+      </p>
     </>
   )
 }
