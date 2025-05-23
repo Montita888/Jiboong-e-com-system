@@ -1,16 +1,16 @@
-name: Deploy to Production on release
+name: Deploy to Production on Release
 
 on:
   release:
     types: [created]
-      
+
 permissions:
-  pages : write
+  pages: write
   deployments: write
   id-token: write
 
 jobs:
-  Deploy:
+  deploy:
     if: ${{ github.event.release.target_commitish == 'production' }}
     runs-on: ubuntu-latest
     steps:
@@ -22,9 +22,7 @@ jobs:
       - run: npm ci
       - run: npm run build
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v5
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
       - uses: actions/deploy-pages@v4
-
-  
