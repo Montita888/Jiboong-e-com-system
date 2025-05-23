@@ -42,7 +42,7 @@ function App() {
       </p>
       <p>
         Test CI V7.0.2
-      </p>
+      </p
     </>
   )
 }
