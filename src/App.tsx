@@ -43,6 +43,12 @@ function App() {
       <p>
         Test CI V7.0.2
       </p>
+      <p>
+        Test CI V7.0.3
+      </p>
+      <p>
+        Test CI V7.0.4
+      </p>
     </>
   )
 }
